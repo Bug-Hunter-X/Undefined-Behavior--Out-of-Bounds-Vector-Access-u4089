@@ -1,0 +1,1 @@
+std::vector<int> vec; vec.push_back(1); vec.push_back(2); vec[2] = 3; // This will cause undefined behavior because accessing vec[2] is out of bounds.
